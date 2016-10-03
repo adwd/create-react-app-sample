@@ -3,16 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "npm-run-all": "^3.1.0",
     "react-scripts": "0.6.1"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start:dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "server": "node server/server.js",
+    "dev": "npm-run-all -p server start:dev",
+    "start": "npm-run-all -s build server"
+  },
+  "proxy": "http://localhost:3001"
 }
