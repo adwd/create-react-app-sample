@@ -1,5 +1,7 @@
 # create-react-app-sample
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 [create-react-app](https://github.com/facebookincubator/create-react-app)をベースにした、herokuにデプロイできるReactアプリのサンプルです。</br>
 create-react-appが生成するReactアプリにバックエンドのREST APIとの通信を追加しています。
 

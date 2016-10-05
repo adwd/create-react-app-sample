@@ -1,0 +1,7 @@
+{
+  "name": "create-react-app sample",
+  "description": "A React.js application using create-react-app with express backend",
+  "repository": "https://github.com/adwd/create-react-app-sample",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "react", "create-react-app"]
+}
