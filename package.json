@@ -2,14 +2,12 @@
   "name": "cra-sample",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "npm-run-all": "^3.1.0",
-    "react-scripts": "0.6.1"
-  },
   "dependencies": {
     "express": "^4.14.0",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "npm-run-all": "^3.1.0",
+    "react-scripts": "0.6.1"
   },
   "scripts": {
     "start:dev": "react-scripts start",
