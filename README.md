@@ -10,6 +10,22 @@ npm i
 npm run dev
 ```
 
+## herokuにデプロイする
+
+```sh
+> heroku create                                                                                    (11s 634ms)
+Creating app... done, ⬢ ancient-savannah-28074
+https://ancient-savannah-28074.herokuapp.com/ | https://git.heroku.com/ancient-savannah-28074.git
+> heroku git:remote -a ancient-savannah-28074                                                       (3s 317ms)
+set git remote heroku to https://git.heroku.com/ancient-savannah-28074.git
+> git push heroku master
+...
+remote: Verifying deploy.... done.
+To https://git.heroku.com/ancient-savannah-28074.git
+ * [new branch]      master -> master
+> heroku open
+```
+
 ## create-react-appからの変更点
 
 - `/todos` にGETリクエストを出すReactアプリにした
